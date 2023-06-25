@@ -1,0 +1,202 @@
+.imgslider {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.cart-icon{
+  color: white;
+  font-size: 40px;
+}
+
+.card {
+  width: 300px;
+  height: 500px;
+  flex-direction: column;
+  display: flex;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 2px 5px 11px 7px #5e5e5ec2;
+
+
+}
+
+
+.cimg {
+  height: 200px;
+  object-fit: cover;
+  width: 300px;
+ 
+
+}
+
+
+/* .cardbtn {
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  background-color: rgb(232, 96, 46);
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 2px 20px 3px rgb(240, 110, 110);
+} */
+.cimg img {
+  height: 200px;
+  width: 300px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  /* background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,255,255,1) 0%, rgba(119,119,118,1) 100%);  */
+}
+.cbtn {
+  width: 270px;
+  height: 100px;
+  position: absolute;
+  bottom: 20px;
+  background-color: rgb(246, 243, 242);
+  border-radius: 25px;
+
+  display: flex;
+  align-self: center;
+  align-items: center;
+  box-shadow: 0px 4px 8px 0px #505050c2, 0px -4px 8px 0px #4d4d4dc2;
+  justify-content: space-around;
+}
+.cardbtn {
+  width: 120px;
+
+  height: 50px;
+  background-color: rgb(232, 96, 46);
+  border-radius: 15px;
+  font-size: 25px;
+  color: white;
+  border: none;
+}
+/* .txt::before{
+  content:'Best Sellers';
+  font-size: 40px;
+  color: white;
+  display: block;
+  position: relative;
+  top: 40px;
+  /* margin: 20px 80px; */
+
+.txt {
+  width: 100%;
+  position: relative;
+
+  height: 80vh;
+  backdrop-filter: blur(15px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.addcardbtn {
+  border: none;
+  width: 120px;
+  height: 50px;
+  border-radius: 15px;
+  background-color: #e13737ea;
+}
+
+.text {
+  text-align: center;
+  color: rgba(88, 87, 87, 0.733);
+  position: relative;
+  top: 30px;
+}
+.cardbtn:hover {
+  background-color: white;
+  color: rgb(224, 102, 65);
+  transition: all 0.7s ease;
+}
+.blnk {
+  width: 100%;
+  background-color: #9e9d9db7;
+  height: 30vh;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.blnk h1 {
+  text-align: center;
+  color: rgb(65, 127, 182);
+  font-family: sans-serif;
+  font-weight: 800;
+}
+.box {
+  /* background: url("C:\Users\ayush\OneDrive\Desktop\react\crux\public\Dishesh\colorful-illustration-cupcakes-candy-blue-background.jpg"); */
+  height: 90vh;
+  width: 100%;
+  /* background-repeat: no-repeat; */
+  display: flex;
+  overflow-y: hidden;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+}
+.slide {
+  display: flex;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+
+.simg {
+  flex-shrink: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  scroll-snap-align: start;
+}
+
+.slide::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+.slide::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.slide::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+.slide-image:not(:first-child) {
+  margin-left: calc(-100% + 100vw);
+}
+
+.slide::-webkit-scrollbar {
+  display: none;
+}
+
+.slide1 {
+  z-index: 1;
+  position: absolute;
+  display: flex;
+}
+.nav2 {
+  z-index: 2;
+  position: absolute;
+  display: flex;
+  left: 50%;
+  transform: translateX(-45%);
+  bottom: 30px;
+}
+
+.btns {
+  background-color: black;
+  width: 12px;
+  height: 12px;
+  margin: 10px;
+  border-radius: 90%;
+  cursor: pointer;
+}
+
+.bactive {
+  background-color: rgb(229, 255, 0);
+  transition: all 1s ease-in;
+}
